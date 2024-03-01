@@ -79,7 +79,7 @@ Add filters
 */
 
 function filters_add() {
-    if(document.querySelector(".as_button")) return;
+    if(document.getElementById("yt-button-shape")) return;
     let custom_settings = document.createElement("div")
     custom_settings.innerHTML = `
     <div class="as_group">
